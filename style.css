@@ -3,19 +3,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-header{
-  background: rgb(232, 232, 232);
-  height: 200px;
+
+html{
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
+body{
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+header{
+  background: rgb(252, 252, 252);
+
+}
 /* nav bar  */
 nav{
   overflow: auto;
   white-space: nowrap;
+  float: right;
+  padding: 10px;
 }
+
 nav li{
-  /* border: 2px solid yellow;   */
-  color: rgb(84, 84, 84);
+  color: rgb(82, 82, 82);
   display: inline-block;
   list-style-type: none;
   padding: 12px;
@@ -23,16 +40,8 @@ nav li{
 }
 
 nav li:hover{
-  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(82, 82, 82);
 }
-
-
-ul{
-  /* border: 2px solid pink; */
-  margin-left: 58vw;
-  /* width: 40vw; */
-}
-
 
 h1{
   font-family: 'Sacramento', cursive;
@@ -40,6 +49,6 @@ h1{
   letter-spacing: .5px;
   font-size: 70px;
   font-weight: 300;
-  color: rgb(255, 255, 144);
+  color: rgb(243, 243, 124);
+  padding: 10vh;
 }
-
