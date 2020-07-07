@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+header{
+  background: rgb(232, 232, 232);
+  height: 200px;
+}
+
+/* nav bar  */
+nav{
+  overflow: auto;
+  white-space: nowrap;
+}
+nav li{
+  /* border: 2px solid yellow;   */
+  color: rgb(84, 84, 84);
+  display: inline-block;
+  list-style-type: none;
+  padding: 12px;
+  text-align: center;
+}
+
+nav li:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+
+ul{
+  /* border: 2px solid pink; */
+  margin-left: 58vw;
+  /* width: 40vw; */
+}
+
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-style: italic;
+  letter-spacing: .5px;
+  font-size: 70px;
+  font-weight: 300;
+  color: rgb(255, 255, 144);
+}
+
