@@ -13,16 +13,13 @@ body{
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
+  background: rgb(248, 241, 245);
 }
 
 *, *::before, *::after{
   box-sizing: inherit;
 }
 
-header{
-  background: rgb(252, 252, 252);
-
-}
 /* nav bar  */
 nav{
   overflow: auto;
@@ -48,7 +45,22 @@ h1{
   font-style: italic;
   letter-spacing: .5px;
   font-size: 70px;
-  font-weight: 300;
-  color: rgb(243, 243, 124);
+  font-weight: 100;
   padding: 10vh;
+  color: rgb(255, 255, 216);
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(222, 223, 255);
+}
+
+section{
+	width: 80%;
+	background-color: white;
+  margin: auto;
+}
+
+div{
+  border: 1px solid slategray;
 }
