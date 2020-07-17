@@ -54,3 +54,13 @@ footer a{
   text-decoration: none;
   color: rgb(222, 223, 255);
 }
+
+section{
+	width: 80%;
+	background-color: white;
+  margin: auto;
+}
+
+div{
+  border: 1px solid slategray;
+}
