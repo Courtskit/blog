@@ -13,7 +13,7 @@ body{
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
-  background: rgb(248, 241, 245);
+  background: rgb(240, 240, 240);
 }
 
 *, *::before, *::after{
@@ -47,12 +47,12 @@ h1{
   font-size: 70px;
   font-weight: 100;
   padding: 10vh;
-  color: rgb(255, 255, 216);
+  color: rgb(255, 255, 206);
 }
 
 footer a{
   text-decoration: none;
-  color: rgb(222, 223, 255);
+  color: rgb(209, 211, 255);
 }
 
 section{
@@ -62,5 +62,5 @@ section{
 }
 
 div{
-  border: 1px solid slategray;
+  border: 1px solid rgb(170, 178, 186);
 }
