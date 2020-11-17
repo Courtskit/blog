@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Raleway&display=swap');
 
 html{
-  font-size: 100%;
+  font-size: 120%;
   box-sizing: border-box;
 }
 
@@ -50,7 +50,7 @@ h1{
   font-size: 70px;
   font-weight: 100;
   padding: 10vh;
-  color: rgb(48, 147, 104);
+  color: #8E9AAF;
 }
 
 section{
@@ -90,6 +90,7 @@ section{
   text-align: center;
   margin-bottom: 40px;
   border: 1px solid #e0e0e0;
+  border-radius: 50%;
 }
 
 .gap {
@@ -120,6 +121,12 @@ section{
 
 .github:hover {
   color: #fff;
-  background: #732ab3;
+  background: #5e2b8b;
+  border: 1px solid #2a66b3;
+}
+
+.dribbble:hover {
+  color: #fff;
+  background: #ac427d;
   border: 1px solid #2a66b3;
 }
