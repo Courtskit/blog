@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "title":"blog",
+      "body":"lorem ipsum",
+      "author": "sunny",
+      "id": 1
+    }
+  ]
+}
